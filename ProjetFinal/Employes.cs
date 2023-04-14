@@ -32,7 +32,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    throw new ArgumentException("Le nom doit commencer par une lettre majuscule et être composé de 6 à 20 lettres alphabétiques.");
+                    throw new ArgumentException("Le nom doit être composé de 6 à 20 lettres alphabétiques et commencer par une lettre majuscule être composé de 6 à 20 lettres alphabétiques.");
                 }
             }
         }
@@ -48,7 +48,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    throw new ArgumentException("Le prénom doit commencer par une lettre majuscule et être composé de 6 à 20 lettres alphabétiques.");
+                    throw new ArgumentException("Le prénom doit être composé de 6 à 20 lettres alphabétiques et commencer par une lettre majuscule .");
                 }
             }
         }
@@ -70,7 +70,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    throw new ArgumentException("Le courriel doit être de la forme 'XXXX@XXXX.ca' ou 'XXXX@XXXX.com'.");
+                    throw new ArgumentException("Le courriel doit respecté un des formats suivant: 'XXXX@XXXX.ca' ou 'XXXX@XXXX.com'.");
                 }
             }
         }
@@ -89,7 +89,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    throw new ArgumentException("Le numéro de téléphone doit être de la forme 'CCC CCC-CCCC'.");
+                    throw new ArgumentException("Le numéro de téléphone doit respecté le format suivant: 'CCC CCC-CCCC'.");
                 }
             }
         }

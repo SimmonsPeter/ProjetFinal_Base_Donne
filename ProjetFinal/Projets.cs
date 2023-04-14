@@ -29,7 +29,7 @@ namespace ProjetFinal
                 }
                 else
                 {
-                    throw new ArgumentException("Le titre doit commencer par une lettre majuscule et être composé de 10 à 40 lettres alphabétiques.");
+                    throw new ArgumentException("Le titre doit être composé de 10 à 40 lettres alphabétiques et commencer par une lettre majuscule.");
                 }
             }
         }
